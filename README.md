@@ -24,7 +24,7 @@ The Spring framework is used as the base for the web-server. Bootstrap is used
 for styling the app components(input field, button, etc.) and jQuery is used to 
 perform the POST request to the server.
 
-`FibController.java` holds the class responsible for calculating and returning the next
+`FibController.java` is responsible for calculating and returning the next
 fibonacci number based on the user input. `fibformhandler.js` sends a POST
 request to the route mapped by the fib controller and inserts an alert with the correct 
 output. Inserts an error message if input cannot be cast to an integer.
