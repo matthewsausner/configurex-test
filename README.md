@@ -1,6 +1,6 @@
 # configurex-test
 
-Try the app by visiting [c9.io/msausner/configurex-test](https://configurex-test-msausner.c9users.io/).
+Try the app by visiting [configurex-test-msausner.c9users.io](https://configurex-test-msausner.c9users.io/).
 
 ## Setup
 
