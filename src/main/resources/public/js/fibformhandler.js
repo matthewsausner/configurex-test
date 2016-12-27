@@ -3,7 +3,7 @@ $(document).ready(function() {
         $('#calculateButton').prop('disabled', true).html('Calculating...');
         $('#fibResult').empty();
         $.post('/nextfib?userInput=' + $('#fibInput').val()).done(function(res) {
-            if (res === "You must enter a number.") {
+            if (res === "Invalid Input") {
                 $('<div class="alert alert-danger" role="alert">' + res + '</div>').appendTo('#fibResult');
                 
             } else {
