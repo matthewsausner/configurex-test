@@ -2,10 +2,7 @@
 
 Try the app by visiting [configurex-test-msausner.c9users.io](https://configurex-test-msausner.c9users.io/).
 
-## Setup
-
-These instructions are only required if you wish to setup the server
-on your local machine.
+## How to setup server on a local machine
 
 First compile dependencies into a jar using Maven:
 
